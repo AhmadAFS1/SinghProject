@@ -23,7 +23,7 @@
                 <?php 
                     define("category", "Category: Support")  
                 ?>
-                <div class= "col-md-4"> <?php  print(category) ?> </div>
+                <b><div class= "col-md-4"> <?php  print(category) ?> </div></b>
                 <div> <a href="https://www.imdb.com/title/tt1146325/">Manage User Accounts</a> </div>
                 <div> <a href="https://www.imdb.com/title/tt1146325/">Assign Roles</a></div>
                 <div> <a href="https://www.imdb.com/title/tt1146325/">Help Desk</a></div>
@@ -33,7 +33,7 @@
                 <?php 
                     define("category", "Category: Finance")  
                 ?>
-                <div class= "col-md-4"> <?php  print(category) ?> </div>
+                <b><div class= "col-md-4"> <?php  print(category) ?> </div></b>
 
                 <div> <a href="https://www.imdb.com/title/tt1146325/">Finance Reports</a> </div>
                 <div> <a href="https://www.imdb.com/title/tt1146325/">Accounts Payable</a> </div>
@@ -45,7 +45,7 @@
                 <?php 
                     define("category", "Category: Sales")  
                 ?>
-                <div class= "col-md-4"> <?php  print(category) ?> </div>
+                <b><div class= "col-md-4"> <?php  print(category) ?> </div></b>
 
                 <div> <a href="https://www.imdb.com/title/tt1146325/">Sales Reports</a> </div>
                 <div> <a href="https://www.imdb.com/title/tt1146325/">Sales Leads</a> </div>
@@ -57,7 +57,7 @@
                 <?php 
                     define("category", "Category: Human Resources")  
                 ?>
-                <div class= "col-md-4"> <?php  print(category) ?> </div>
+                <b><div class= "col-md-4"> <?php  print(category) ?> </div></b>
 
                 <div> <a href="https://www.imdb.com/title/tt1146325/">New Hire On-boarding</a> </div>
                 <div> <a href="https://www.imdb.com/title/tt1146325/">Benefits</a> </div>
@@ -72,7 +72,8 @@
                 <?php 
                     define("category", "Category: Technology")  
                 ?>
-                <div class= "col-md-4"> <?php  print(category) ?> </div>
+                <b><div class= "col-md-4"> <?php  print(category) ?> </div></b>
+
 
                 <div> <a href="https://www.imdb.com/title/tt1146325/">Application Monitoring</a> </div>
                 <div> <a href="https://www.imdb.com/title/tt1146325/">Tech Support</a> </div>
