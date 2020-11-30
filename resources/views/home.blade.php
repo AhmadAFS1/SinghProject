@@ -1,5 +1,12 @@
 @extends('layouts.app')
 <title>Assignment</title>
+<style>
+.myDiv {
+border: 5px outset red;
+background-color: lightblue;
+text-align: center;
+}
+</style>
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
@@ -15,72 +22,80 @@
                     @endif
 
                     {{ __('You are logged in!') }}
-                </div>
-            </div>
-          
-        
+
+
+
             @if (Auth::user()->admin_Role=="ADMIN")
-                <?php 
-                    define("category", "Category: Support")  
-                ?>
-                <b><div class= "col-md-4"> <?php  print(category) ?> </div></b>
-                <div> <a href="https://www.imdb.com/title/tt1146325/">Manage User Accounts</a> </div>
-                <div> <a href="https://www.imdb.com/title/tt1146325/">Assign Roles</a></div>
-                <div> <a href="https://www.imdb.com/title/tt1146325/">Help Desk</a></div>
-            @endif
-        
-            @if (Auth::user()->admin_Role=="FINANCE_ADMIN")
-                <?php 
-                    define("category", "Category: Finance")  
+                <?php
+                    define("category", "Category: Support")
                 ?>
                 <b><div class= "col-md-4"> <?php  print(category) ?> </div></b>
 
-                <div> <a href="https://www.imdb.com/title/tt1146325/">Finance Reports</a> </div>
-                <div> <a href="https://www.imdb.com/title/tt1146325/">Accounts Payable</a> </div>
-                <div> <a href="https://www.imdb.com/title/tt1146325/">Accounts Recievable</a> </div>
-                <div> <a href="https://www.imdb.com/title/tt1146325/">Tax</a> </div>
-            @endif 
+                    <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Manage User Accounts" />
+                    <div> <b> </div>
+                    <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Assign Roles" />
+                    <div> <b> </div>
+                    <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Help Desk" />
+
+            @endif
+
+            @if (Auth::user()->admin_Role=="FINANCE_ADMIN")
+                <?php
+                    define("category", "Category: Finance")
+                ?>
+                <b><div class= "col-md-4"> <?php  print(category) ?> </div></b>
+                    <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Finance Reports" />
+                    <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Accounts Payable" />
+                    <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Accounts Recievable" />
+                    <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Tax" />
+
+
+            @endif
 
             @if (Auth::user()->admin_Role=="SALES_ADMIN")
-                <?php 
-                    define("category", "Category: Sales")  
+                <?php
+                    define("category", "Category: Sales")
                 ?>
                 <b><div class= "col-md-4"> <?php  print(category) ?> </div></b>
 
-                <div> <a href="https://www.imdb.com/title/tt1146325/">Sales Reports</a> </div>
-                <div> <a href="https://www.imdb.com/title/tt1146325/">Sales Leads</a> </div>
-                <div> <a href="https://www.imdb.com/title/tt1146325/">Sales Demo</a> </div>
-                
+                    <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Sales Reports" />
+                    <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Sales Leads" />
+                    <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Sales Demo" />
+
             @endif
 
             @if (Auth::user()->admin_Role=="HR_ADMIN")
-                <?php 
-                    define("category", "Category: Human Resources")  
+                <?php
+                    define("category", "Category: Human Resources")
                 ?>
                 <b><div class= "col-md-4"> <?php  print(category) ?> </div></b>
+                    <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="New Hire On-Boarding" />
+                    <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Benefits" />
+                    <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Payroll" />
+                    <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Off-Boarding" />
+                    <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="HR Reports" />
 
-                <div> <a href="https://www.imdb.com/title/tt1146325/">New Hire On-boarding</a> </div>
-                <div> <a href="https://www.imdb.com/title/tt1146325/">Benefits</a> </div>
-                <div> <a href="https://www.imdb.com/title/tt1146325/">Payroll</a> </div>
-                <div> <a href="https://www.imdb.com/title/tt1146325/">Off-boarding</a> </div>
-                <div> <a href="https://www.imdb.com/title/tt1146325/">HR Reports</a> </div>
-            
+
             @endif
 
 
             @if (Auth::user()->admin_Role=="TECH_ADMIN")
-                <?php 
-                    define("category", "Category: Technology")  
+                <?php
+                    define("category", "Category: Technology")
                 ?>
                 <b><div class= "col-md-4"> <?php  print(category) ?> </div></b>
 
+                    <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Application Monitoring" />
+                    <div> </b> </div>
+                    <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Tech Support" />
+                    <div> </b> </div>
+                    <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="App Development" />
+                    <div> </b> </div>
+                    <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="App Admin" />
+                    <div> </b> </div>
+                    <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Release Management" />
 
-                <div> <a href="https://www.imdb.com/title/tt1146325/">Application Monitoring</a> </div>
-                <div> <a href="https://www.imdb.com/title/tt1146325/">Tech Support</a> </div>
-                <div> <a href="https://www.imdb.com/title/tt1146325/">App Development</a> </div>
-                <div> <a href="https://www.imdb.com/title/tt1146325/">App Admin</a> </div>
-                <div> <a href="https://www.imdb.com/title/tt1146325/">Release Management</a> </div>
-            
+
             @endif
 
         </div>
