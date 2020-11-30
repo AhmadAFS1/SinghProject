@@ -45,8 +45,11 @@ text-align: center;
                 ?>
                 <b><div class= "col-md-4"> <?php  print(category) ?> </div></b>
                     <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Finance Reports" />
+                    <div> <b> </div>
                     <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Accounts Payable" />
+                    <div> <b> </div>
                     <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Accounts Recievable" />
+                    <div> <b> </div>
                     <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Tax" />
 
 
@@ -59,7 +62,9 @@ text-align: center;
                 <b><div class= "col-md-4"> <?php  print(category) ?> </div></b>
 
                     <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Sales Reports" />
+                    <div> <b> </div>
                     <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Sales Leads" />
+                    <div> <b> </div>
                     <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Sales Demo" />
 
             @endif
@@ -70,9 +75,13 @@ text-align: center;
                 ?>
                 <b><div class= "col-md-4"> <?php  print(category) ?> </div></b>
                     <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="New Hire On-Boarding" />
+                    <div> <b> </div>
                     <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Benefits" />
+                    <div> <b> </div>
                     <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Payroll" />
+                    <div> <b> </div>
                     <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="Off-Boarding" />
+                    <div> <b> </div>
                     <input type="button" onclick="location.href='https://www.imdb.com/title/tt1146325';" value="HR Reports" />
 
 
