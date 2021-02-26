@@ -61,6 +61,12 @@ table {
   border-collapse: collapse;
 }
 
+td, th {
+  border: 0.3vw double #dddddd;
+  text-align: left;
+  padding: 0.4vw;
+}
+
 $colors: #FFFFFF, #0072B5, #2C3E50;
 
 @for $i from 1 through length($colors) {
