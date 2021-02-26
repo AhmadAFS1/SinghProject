@@ -28,3 +28,5 @@ Route::get('/profile', function () {
 Route::get('/fuelquoteform', function () {
     return view('fuelquoteform');
 });
+
+Route::view('/fuelquotehistory', 'fuelquotehistory');
