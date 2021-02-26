@@ -10,7 +10,22 @@
                     <div class = "card-body">
 
                             <div class="form-group row">
-                                <label for="Gallons" class="col-md-4 col-form-label text-md-right">{{ __('Gallons Requested') }}</label>
+                                <div id="body_container">
+                                    <div id="body_contents">
+                                        <table>
+                                            <tr>
+                                                <th><label for="Gallons" class="col-md-4 col-form-label text-md-right">{{ __('Gallons Requested') }}</label></th>
+                                                <th><label for="Gallons" class="col-md-4 col-form-label text-md-right">{{ __('Gallons Requested') }}</label></th>
+                                                <th><label for="Gallons" class="col-md-4 col-form-label text-md-right">{{ __('Gallons Requested') }}</label></th>
+                                                <th><label for="Gallons" class="col-md-4 col-form-label text-md-right">{{ __('Gallons Requested') }}</label></th>
+                                                <th><label for="Gallons" class="col-md-4 col-form-label text-md-right">{{ __('Gallons Requested') }}</label></th>
+                                                <th><label for="Gallons" class="col-md-4 col-form-label text-md-right">{{ __('Gallons Requested') }}</label></th>
+                                            </tr>
+                                    
+                                        </table>
+                                    </div>
+                                </div>
+                                
                             </div>
 
             </div>
