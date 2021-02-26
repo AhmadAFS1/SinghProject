@@ -8,7 +8,8 @@
                 <div class="card-header">{{ __('Dashboard') }}</div>
 
                 <div class="card-body">
-                    <form action="fuelquoteform.blade.php"><button>Fuel Quote</button></form>
+                    <form action="fuelquoteform"><button>Fuel Quote</button></form>
+                    <form action="fuelquotehistory"><button>Fuel Quote History</button></form>
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
