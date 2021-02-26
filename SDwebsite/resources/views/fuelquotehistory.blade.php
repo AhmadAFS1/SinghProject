@@ -1,20 +1,12 @@
 
-@extends('layouts.app')
+<h1> History (Note for future self: $orders from controller and $order to dynamically show order drom Database)</h1>
 
-@section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header"> Quote History</div>
-                    <div class = "card-body">
+<table>
+    <tr>
+        <td>--Name--</td>
+        <td>--Email--</td>
+        <td>--Amount Due--</td>
+        <td>--Address--</td>
+    </tr>  
 
-                            <div class="form-group row">
-                                <label for="Gallons" class="col-md-4 col-form-label text-md-right">{{ __('Gallons Requested') }}</label>
-                            </div>
-
-            </div>
-        </div>
-    </div>
-</div>
-@endsection
+</table>

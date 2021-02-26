@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\QuoteHistoryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,3 +31,5 @@ Route::get('/fuelquoteform', function () {
 });
 
 Route::view('/fuelquotehistory', 'fuelquotehistory');
+
+Route::get('History', [QuoteHistoryController::class, 'show']);
