@@ -37,6 +37,9 @@
                     <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
                         Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
                     </div>
+                    <form action="fuelquoteform"><button>Fuel Quote</button></form>
+                    <form action="fuelquotehistory"><button>Fuel Quote History</button></form>
+                    <form action="profile"><button>Profile</button></form>
                     @if (Route::has('login'))
                         <div class="ml-4 text-center text-sm text-gray-500 sm:text-center sm:ml-0">
                             @auth
@@ -50,6 +53,7 @@
                             @endauth
                         </div>
                     @endif
+                    
                 </div>
             </div>
         </div>
