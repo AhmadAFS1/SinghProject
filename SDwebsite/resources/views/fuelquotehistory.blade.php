@@ -9,18 +9,51 @@
                 <div class="card-header">{{ __('Fuel Quote History') }}</div>
 
                     <div class="card-body">
-                        <h1> History (Note for future self: $orders from controller and $order to dynamically show order drom Database)</h1>
+                        <h1> History (Note for future : $orders from controller and $order to dynamically show order drom Database)</h1>
 
-                        <table>
+                        <table class = "card body">
                             <tr>
-                                <td>--Name--</td>
-                                <td>--Email--</td>
-                                <td>--Amount Due--</td>
-                                <td>--Address--</td>
+                                <td>January 2nd 2021 </td>
+                                <td>Albert Winston-</td>
+                                <td>AlbertWinston@gmail.com-</td>
+                                <td>$9000-</td>
+                                <td>9171 Wilshire Boulevard, Beverly Hills, CA 90210</td>
                             </tr>  
 
                         </table>
-                                                    <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
+                        <table class = "card body">
+                            <tr>
+                                <td>January 3rd 2021 </td>
+                                <td>Albert Winston-</td>
+                                <td>AlbertWinston@gmail.com-</td>
+                                <td>$9000-</td>
+                                <td>9171 Wilshire Boulevard, Beverly Hills, CA 90210</td>
+                            </tr>  
+
+                        </table>
+                        <table class = "card body">
+                            <tr>
+                                <td>January 4th 2021 </td>
+                                <td>Albert Winston-</td>
+                                <td>AlbertWinston@gmail.com-</td>
+                                <td>$9000-</td>
+                                <td>9171 Wilshire Boulevard, Beverly Hills, CA 90210</td>
+                            </tr>  
+
+                        </table>
+                        <table class = "card body">
+                            <tr>
+                                <td>January 5th 2021 </td>
+                                <td>Albert Winston-</td>
+                                <td>AlbertWinston@gmail.com-</td>
+                                <td>$9000-</td>
+                                <td>9171 Wilshire Boulevard, Beverly Hills, CA 90210</td>
+                            </tr>  
+
+                        </table>
+
+                        
+                                                    <!--<div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
                                                         <div id="body_container">
                                                             <div id="body_contents">
                                                                 <table>
@@ -35,7 +68,7 @@
                                                             </div>
                                                         </div>
                                                         
-                                                    </div>
+                                                    </div> -->
 
                                     </div>
                                 </div>
